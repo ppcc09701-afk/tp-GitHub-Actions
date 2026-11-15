@@ -1,3 +1,4 @@
+
 name: Mon premier workflow
 
 on:
@@ -19,3 +20,5 @@ jobs:
         run: |
           echo "Nom : Aouabed wissem"
           echo "Date d'exécution : $(date)"
+      - name: Verification exercice 4
+        run: echo "Exercice 4 : declenchement automatique OK"
